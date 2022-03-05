@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 160px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #F32C8A;
+}
+
+.menu{
+  margin-top: 100px;
+  margin-left: 300px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+	padding-bottom: 20px;
+	background: #ffffff;
+  width: 800px;
+  height: 450px;
+  padding-top: 14px;
+}
+
+.descripcion{
+    height: 200px;
+}
+
+.menu-pedido{
+  margin-top: 70px;
+  margin-left: 300px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+	padding-bottom: 20px;
+	background: #ffffff;
+  width: 900px;
+  height: 750px;
+  padding-top: 14px;
+}
+
+.boton{
+  margin-left: 750px;
+  margin-top: 20px;
+}
+
+.menu-tabla{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  align-self: center;
+}
+
+.menu-tabla td, .menu-tabla th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.menu-tabla tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.menu-tabla tr:hover{
+  background-color: #dddddd;
+}
+
+.menu-tabla th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4972F4;
+  color: white;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.info{
+  padding-top: 50px;
+  padding-left: 25px;
+}
+
+.slogan{
+  text-align: center;
+  padding-top: 70px;
+}

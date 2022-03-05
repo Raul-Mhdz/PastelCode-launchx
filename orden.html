@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PastelCode</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+    <nav class="navMenu">
+        <a href="Pastelero/index.html">Login</a>
+        <a href="sabores.html">Sabores</a>
+        <a href="adornos.html">Adornos</a>
+        <a href="#">Ordena aqui</a>
+    </nav>
+    <div class="menu-pedido">
+        <h1 class="titulo">Pedido</h1>
+        <form action="iecatestvocacional1.php" method="POST">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>*Nombre(s):</label>
+                    <input type="text" name="nombre" placeholder="Nombre(s) con apellidos" pattern="[A-Za-z ]+" minlength="3" maxlength="1000" class="form-control" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>*Telefono:</label>
+                    <input type="text" name="telefono" placeholder="Telefono" pattern="[0-9]{8,}" minlength="10" maxlength="10" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>*Telefono celular:</label>
+                    <input type="text" name="celular" placeholder="Telefono celular" pattern="[0-9]{10,}" minlength="10" maxlength="10" class="form-control" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>*Correo:</label>
+                    <input type="email" name="correo" placeholder="Correo" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" minlength="5" maxlength="100" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Sabor 1: (nota nada mas podemos combinar dos sabores)</label>
+                    <select name="p7" class="form-control" required>
+                        <option value="">-Elija una opcion-</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Fresas">Fresas</option>
+                        <option value="Vainilla">Vainilla</option>
+                        <option value="Limon">Limón</option>
+                        <option value="Mermelada">Mermelada</option>
+                        <option value="Ganache">Ganache</option>
+                        <option value="Frutos_Rojos">Frutos Rojos</option>
+                        <option value="Milky_Way">Milky Way</option>
+                        <option value="Trufa">Trufa</option>
+                        <option value="Limon">Snickers</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Sabor 2:</label>
+                    <select name="p7" class="form-control" required>
+                        <option value="">-Elija una opcion-</option>
+                        <option value="Ninguno">Ninguno</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Fresas">Fresas</option>
+                        <option value="Vainilla">Vainilla</option>
+                        <option value="Limon">Limón</option>
+                        <option value="Mermelada">Mermelada</option>
+                        <option value="Ganache">Ganache</option>
+                        <option value="Frutos_Rojos">Frutos Rojos</option>
+                        <option value="Milky_Way">Milky Way</option>
+                        <option value="Trufa">Trufa</option>
+                        <option value="Limon">Snickers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Adornos 1: (nota nada mas podemos combinar dos adornos)</label>
+                    <select name="p7" class="form-control">
+                        <option value="">-Elija una opcion-</option>
+                        <option value="Maltesers">Maltesers</option>
+                        <option value="Azucar_de_colores">Azúcar de colores</option>
+                        <option value="M&Ms">M&Ms</option>
+                        <option value="Bombones">Bombones</option>
+                        <option value="Avellanas_ralladas">Avellanas ralladas</option>
+                        <option value="Cubierta_de_crema_de_chocolate">Cubierta de crema de chocolate</option>
+                        <option value="Cubierta de nata">Cubierta de nata</option>
+                        <option value="Fresas_en_rodajitas">Fresas en rodajitas</option>
+                        <option value="Naranja_en_rodajitas">Naranja en rodajitas</option>
+                        <option value="Platano">Plátano</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Adornos 2:</label>
+                    <select name="p7" class="form-control">
+                        <option value="">-Elija una opcion-</option>
+                        <option value="Ninguno">Ninguno</option>
+                        <option value="Maltesers">Maltesers</option>
+                        <option value="Azucar_de_colores">Azúcar de colores</option>
+                        <option value="M&Ms">M&Ms</option>
+                        <option value="Bombones">Bombones</option>
+                        <option value="Avellanas_ralladas">Avellanas ralladas</option>
+                        <option value="Cubierta_de_crema_de_chocolate">Cubierta de crema de chocolate</option>
+                        <option value="Cubierta de nata">Cubierta de nata</option>
+                        <option value="Fresas_en_rodajitas">Fresas en rodajitas</option>
+                        <option value="Naranja_en_rodajitas">Naranja en rodajitas</option>
+                        <option value="Platano">Plátano</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label>*Descripicon del pastel</label>
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="10" class="form-control descripcion" placeholder="Descripcion del pastel" required></textarea>
+                </div>
+            </div>
+                <input type="submit" value="Realizar pedido" class="btn btn-primary bt-block boton">
+        </form>
+    </div>
+</body>
+</html>
